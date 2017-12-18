@@ -1,0 +1,29 @@
+{
+  "name": "kanggunhee.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {
+    "start": "gulp default",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanggunhee/kanggunhee.github.io.git"
+  },
+  "author": "kanggunhee <gunhee1021@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanggunhee/kanggunhee.github.io/issues"
+  },
+  "homepage": "https://github.com/kanggunhee/kanggunhee.github.io#readme"
+}
