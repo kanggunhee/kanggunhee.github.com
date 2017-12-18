@@ -2,20 +2,20 @@ console.log('my-note app.js');
 (function($, global, app){
   var $memoField = $('textarea#memo');
 
-  $('.btn-newnote').on('click', ()=>{
+  $('.btn-newnote').on('click', function(){
     app.view.clear();
   });
-  $('.btn-savenote').on('click', ()=>{
+  $('.btn-savenote').on('click', function(){
     app.view.saveMemo();
   });
-  $('.btn-download').on('click', ()=>{
+  $('.btn-download').on('click', function(){
     app.view.download();
   });
-  $('.btn-fullscreen').on('click', (e)=>{
+  $('.btn-fullscreen').on('click', function(e){
     if (screenfull.enabled)
       screenfull.toggle();
   });
-  $('.btn-about').on('click', ()=>{
+  $('.btn-about').on('click', function(){
     app.view.aboutModal();
   });
 
